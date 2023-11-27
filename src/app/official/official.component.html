@@ -1,0 +1,24 @@
+<div class="official">
+    <h2>Official Details</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Employee-ID</th>
+          <th>Department</th>
+          <th>Title</th>
+          <th>Start Date</th>
+          <th>Work Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employees">
+          <td>{{ employee.official.empid }}</td>
+          <td>{{ employee.official.dpt }}</td>
+          <td>{{ employee.official.title }}</td>
+          <td>{{ employee.official.startdate }}</td>
+          <td>{{ employee.official.worklocation }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

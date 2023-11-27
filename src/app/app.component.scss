@@ -1,0 +1,19 @@
+.navbar{
+    padding: 15px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 20px;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    } 
+    a:hover{
+        color: lightgrey;
+        font-size: 14px;
+    }
+
+}

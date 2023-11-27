@@ -1,0 +1,24 @@
+<div class="personal">
+    <h2>Personal Details</h2>
+    <table>
+      <thead>
+        <tr>
+            <th>Employee-ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Place</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employees">
+            <td>{{employee.official.empid}}</td>
+            <td>{{ employee.personal.Name }}</td>
+            <td>{{ employee.personal.age }}</td>
+            <td>{{ employee.personal.gender }}</td>
+            <td>{{employee.personal.place}}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+  
